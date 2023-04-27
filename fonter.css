@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    font-family: sans-serif;
+    color: pink;
+  }
+#menu li {
+    color: rgb(235, 235, 192);
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+  }
+#menu ul {
+    background:blanchedalmond ;
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+  }
+#menu ul li a {
+    color: blue;
+    text-decoration: none;
+    display: block;
+  }
+#menu ul li a:hover {
+    background: #F1F1F1;
+    color: #0C0A0A;
+  }
+/* center */
+.center{
+  display:grid;
+  grid-template-columns: 300px 700px 300px;
+}
+#link{
+  float: left;
+}
+#CV img{
+  float: right;
+}
